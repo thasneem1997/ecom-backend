@@ -1,0 +1,23 @@
+{ "name": "ecom-backend",
+"version": "1.0.0",
+"description": "backend for ecommerce mern",
+"main": "server.js",
+"scripts": {
+  "dev": "nodemon server.js",
+  "start": "node server.js"
+},
+"repository": {
+  "type": "git",
+  "url": "https://github.com/thasneem1997/ecom-backend"
+},
+"author": "thasneem",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
