@@ -1,9 +1,9 @@
 require('dotenv').config();
 const express = require('express');
-// const config = require('./config/dbConfig'); 
+const config = require('./config/dbConfig'); 
 const app = express();
 // establish  connection with DB
-// config.connect();
+config.connect();
 
 
 app.get('/health', (req,res) => {
