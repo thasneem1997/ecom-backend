@@ -1,7 +1,7 @@
 require('dotenv').config();
-const express = require('express');
+const express = require('express');//import express to this file
 const config = require('./config/dbConfig'); 
-const app = express();
+const app = express();//intailize the app with express 
 // establish  connection with DB
 config.connect();
 
